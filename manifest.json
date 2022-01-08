@@ -1,0 +1,12 @@
+{
+  "name": "Imgur ad remover",
+  "description": "Hide ads in imgur",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://imgur.com/*"],
+      "css": ["content-styles.css"]
+    }
+  ]
+}
