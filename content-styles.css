@@ -1,3 +1,11 @@
-.ad-slot, .advertisement, .panel-ad, .Gallery-Content-AdSense {
-  display: none !important;
+.ad-slot,
+.advertisement,
+.panel-ad,
+.Gallery-Content-AdSense {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: -1000 !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
 }
